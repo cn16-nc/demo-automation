@@ -1,0 +1,56 @@
+
+Feature: Login Function
+To enter into the smartbears website
+User must be able to access website if the login is successful
+
+Scenario: Login
+
+Given: User has its email
+
+And Password
+
+When User enters the correct email and password
+
+Then It should be logged into the website
+
+Scenario: Unsuccessful login
+
+When User enters either wrong email or password 
+
+Then It should reverse back on the login page
+
+----------------------------------------------------------------------------------
+
+Feature: View all orders
+To view the page showing all orders  
+User must be able to access orders website
+
+Scenario: checkall button
+
+When User clicks all the orders are selected
+
+Scenario: uncheckall button
+
+When User clicks all the orders are unselected
+
+Scenario: check button
+
+When User click the checkbox
+then the order is selected
+
+Scenario: delete
+
+When User click the delete selected
+then the order selected is deleted
+
+----------------------------------------------------------------------------------
+
+Feature- View all products
+To view the page showing all products  
+User must be able to access products website
+
+Scenario: view all products 
+
+When User clicks the products list is displayed
+
+----------------------------------------------------------------------------------
